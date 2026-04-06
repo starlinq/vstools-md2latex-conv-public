@@ -4,7 +4,7 @@ Utility for the conversion of markdown texts into LaTeX format
 
 Requirements:
 
-- Requires Pandoc to be installed.
+- Requires [Pandoc](https://github.com/jgm/pandoc) to be installed.
 - Requires an installation of the following Python packages: `pip install emoji pypandoc`
 
 Usage:
