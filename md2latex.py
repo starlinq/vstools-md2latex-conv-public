@@ -37,10 +37,10 @@ if __name__ == '__main__':
 
         print("Usage: python md2latex.py input.md [input.tex]")
         print("Requires Pandoc installed.")
-        print("Requires an installation of the following Python packages:")
+        print("Requires an installation of Python3 and the following Python packages:")
         print("`pip install emoji pypandoc`")
-        print("The output LaTeX file will need an `emoji` package as `\usepackage{emoji}`")
-        print(f"Current command: python {sys.argv}")
+        print("The output LaTeX file will need an 'emoji' package as '\\usepackage{emoji}'")
+        print(f"Current command: python {sys.argv}\n")
 
         sys.exit(1)
 

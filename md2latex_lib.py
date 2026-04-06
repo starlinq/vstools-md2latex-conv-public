@@ -142,7 +142,7 @@ def write_latex_file(latex_file_path, text):
         file = open(latex_file_path, "w", encoding="utf-8")
         # The output LaTeX file will need an emoji package as \usepackage{emoji}
         file.write("")
-        file.write("% To display emojis, this output LaTeX file needs an emoji package as \usepackage{emoji}")
+        file.write("% To display emojis, this output LaTeX file needs an 'emoji' package as \\usepackage{emoji}")
         file.write("")
         file.write(text)
         file.close()
@@ -225,7 +225,7 @@ def md_to_latex_v3(input_file, output_file):
         print("❌ The input file is either missing or not a Markdown file.")
         # raise FileNotFoundError(f"Input file '{input_file}' not found.")
         return
-    else
+    else:
         # ✅ The file exists and is a Markdown file.
         # read it into variable
         markdown_content = read_markdown_file(input_file)
