@@ -143,7 +143,7 @@ def write_latex_file(latex_file_path, text):
         # The output LaTeX file will need an emoji package as \usepackage{emoji}
         file.write("%\n")
         file.write("% To display emojis, this output LaTeX file needs an 'emoji' package as \\usepackage{emoji}\n")
-        file.write("%\n")
+        file.write("%\n\n")
         file.write(text)
         file.close()
     except Exception as e:
