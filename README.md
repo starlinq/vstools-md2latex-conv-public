@@ -10,6 +10,8 @@ Requirements:
 - Requires an installation of [Python3](https://www.python.org/) and the following Python packages: `pip install emoji pypandoc`.
 - The output LaTeX file will need an [`emoji`](https://ctan.org/pkg/emoji) package as `\usepackage{emoji}`.
 
+[TeX Live](https://tug.org/texlive/) is a recommended way to get up and running with the TeX document production system.
+
 Usage:
 
 ```
