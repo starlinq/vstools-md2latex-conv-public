@@ -8,7 +8,7 @@ Requirements:
 
 - Requires [Pandoc](https://github.com/jgm/pandoc) to be installed.
 - Requires an installation of the following Python packages: `pip install emoji pypandoc`.
-- The output LaTeX file will need an `emoji` package as `\usepackage{emoji}`.
+- The output LaTeX file will need an [`emoji`](https://ctan.org/pkg/emoji) package as `\usepackage{emoji}`.
 
 Usage:
 
