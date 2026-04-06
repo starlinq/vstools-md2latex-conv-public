@@ -9,6 +9,10 @@ Requirements:
 
 Usage:
 
+```
+python md2latex.py input.md [input.tex]
+```
+
 By default, if only a `.md` file path is provided, we will get the output file with the same name (but with a `.tex` extension) and in the same location:
 
 ```
