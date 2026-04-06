@@ -141,8 +141,8 @@ def write_latex_file(latex_file_path, text):
     try:
         file = open(latex_file_path, "w", encoding="utf-8")
         # The output LaTeX file will need an emoji package as \usepackage{emoji}
-        file.write("%")
-        file.write("% To display emojis, this output LaTeX file needs an 'emoji' package as \\usepackage{emoji}")
+        file.write("%\n")
+        file.write("% To display emojis, this output LaTeX file needs an 'emoji' package as \\usepackage{emoji}\n")
         file.write("%\n")
         file.write(text)
         file.close()
