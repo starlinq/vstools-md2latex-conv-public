@@ -1,11 +1,14 @@
 # vstools-md2latex-conv-public
 
-Utility for the conversion of markdown texts into LaTeX format
+Utility for the conversion of markdown texts into LaTeX format.
+
+Nowadays, markdown files contain not only text with structural and formatting elements, but also emojis, especially in the output of various AI tools. The purpose of this utility is to convert those texts with emojis into a LaTeX-compatible format, not losing any elements of their rich formatting!
 
 Requirements:
 
 - Requires [Pandoc](https://github.com/jgm/pandoc) to be installed.
 - Requires an installation of the following Python packages: `pip install emoji pypandoc`
+- The output LaTeX file will need an `emoji` package
 
 Usage:
 
