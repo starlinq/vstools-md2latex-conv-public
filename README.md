@@ -1,2 +1,26 @@
 # vstools-md2latex-conv-public
-Utility for conversion of markdown texts into LaTeX format
+
+Utility for the conversion of markdown texts into LaTeX format
+
+Requirements:
+
+- Requires Pandoc to be installed.
+- Requires an installation of the following Python packages: `pip install emoji pypandoc`
+
+Usage:
+
+By default, if only a `.md` file path is provided, we will get the output file with the same name (but with a `.tex` extension) and in the same location:
+
+```
+python md2latex.py my-md-file.md
+```
+
+In case you want to change the output filename and its location:
+
+```
+python md2latex.py my-md-file.md my-latex-file.tex
+```
+
+
+
+
