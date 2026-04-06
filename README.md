@@ -2,12 +2,12 @@
 
 Utility for the conversion of markdown texts into LaTeX format.
 
-Nowadays, markdown files contain not only text with structural and formatting elements, but also emojis, especially in the output of various AI tools. The purpose of this utility is to convert those texts with emojis into a LaTeX-compatible format, not losing any elements of their rich formatting!
+Nowadays, markdown files contain not only text with structural and formatting elements, but also emojis, especially in the output of various AI tools. The purpose of this utility is to convert text with emojis into a LaTeX-compatible format without losing any elements of their rich formatting!
 
 Requirements:
 
 - Requires [Pandoc](https://github.com/jgm/pandoc) to be installed.
-- Requires an installation of the following Python packages: `pip install emoji pypandoc`.
+- Requires an installation of [Python3](https://www.python.org/) and the following Python packages: `pip install emoji pypandoc`.
 - The output LaTeX file will need an [`emoji`](https://ctan.org/pkg/emoji) package as `\usepackage{emoji}`.
 
 Usage:
