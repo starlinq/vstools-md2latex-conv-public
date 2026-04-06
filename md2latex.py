@@ -14,8 +14,8 @@ import md2latex_lib
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    print("Utility for conversion of markdown texts into LaTeX format (ver.3b)")
-    print("Requires Pandoc installed.")
+    print("Utility for the conversion of markdown texts into LaTeX format (ver.3b)")
+    print("Requires Pandoc to be installed.")
     print("Requires an installation of the following Python packages:")
     print("pip install emoji pypandoc")
 
@@ -38,7 +38,8 @@ if __name__ == '__main__':
         print("Usage: python md2latex.py input.md [input.tex]")
         print("Requires Pandoc installed.")
         print("Requires an installation of the following Python packages:")
-        print("pip install emoji pypandoc")
+        print("`pip install emoji pypandoc`")
+        print("The output LaTeX file will need an `emoji` package as `\usepackage{emoji}`")
         print(f"Current command: python {sys.argv}")
 
         sys.exit(1)
